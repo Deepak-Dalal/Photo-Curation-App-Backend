@@ -13,6 +13,11 @@ This is a **photo curation app** backend that allows users to:
 The backend is built using **Node.js**, **Express.js**, **Sequelize**, and **Supabase PostgreSQL**.  
 
 ---
+### Postman APIs Testing Screenshots
+
+The API has been tested with Postman, and testing screenshots are included. [Screenshots](#testing-with-postman)
+
+---
 
 ## ✨ Features  
 
