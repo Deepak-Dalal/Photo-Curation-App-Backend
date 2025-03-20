@@ -1,8 +1,8 @@
-# 📸 Picstoria - Photo Curation App  
+# 📸 Photo Curation App Backend 
 
 ## 📌 Overview  
 
-**Picstoria** is a **photo curation app** that allows users to:  
+This is a **photo curation app** backend that allows users to:  
 
 ✅ Search for images from the **Unsplash API**  
 ✅ Save images to **collections** in **Supabase PostgreSQL**  
@@ -32,8 +32,7 @@ The backend is built using **Node.js**, **Express.js**, **Sequelize**, and **Sup
 | **Express.js**  | API Framework                 |
 | **Sequelize**   | ORM for PostgreSQL database   |
 | **Supabase**    | PostgreSQL database hosting   |
-| **Axios**       | HTTP client for API requests  |
-| **Dotenv**      | Environment variable handling |
+| **Axios**       | HTTP client for API requests to Unsplash API service  |
 
 ---
 
@@ -78,11 +77,11 @@ The backend is built using **Node.js**, **Express.js**, **Sequelize**, and **Sup
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/document-management-api.git
+   git clone https://github.com/Deepak-Dalal/Photo-Curation-App-Backend.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd document-management-api
+   cd Photo-Curation-App-Backend
    ```
 3. Install dependencies:
    ```sh
