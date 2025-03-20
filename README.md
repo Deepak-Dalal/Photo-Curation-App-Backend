@@ -14,7 +14,7 @@ The backend is built using **Node.js**, **Express.js**, **Sequelize**, and **Sup
 
 ---
 
-### Live Link
+### 🚀 Live Link
 
 https://photo-curation-app-backend.vercel.app
 
