@@ -33,6 +33,10 @@ app.post("/api/photos/:photoId/tags", addTagsToPhoto);
 app.get("/api/photos/tag/search", searchPhotosByTags);
 app.get("/api/search-history", getSearchHistory);
 
+app.get("/", (req, res) => {
+  res.send("Welcome to photo curation app!");
+});
+
 app.listen(3000, () => {
   console.log("server is listening on port 3000");
 });
